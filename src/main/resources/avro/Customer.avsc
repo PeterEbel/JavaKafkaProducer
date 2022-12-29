@@ -1,0 +1,21 @@
+{
+ "namespace": "org.example.customer",
+ "type": "record",
+ "name": "Customer",
+ "fields": [
+     {"name": "id", "type": "string"},
+     {"name": "entityID", "type": "string"},
+     {"name": "customerNumber", "type": "string"},
+     {"name": "validFrom", "type": "string"},
+     {"name": "validTo", "type": "string"},
+     {"name": "genderCode", "type": "string"},
+     {"name": "lastName", "type": "string"},
+     {"name": "firstName", "type": "string"},
+     {"name": "birthDate", "type": "string"},
+     {"name": "countryCode", "type": "string"},
+     {"name": "postalCode", "type": "string"},
+     {"name": "city", "type": "string"},
+     {"name": "street", "type": "string"},
+     {"name": "partitionDate", "type": "string"}
+ ]
+}
